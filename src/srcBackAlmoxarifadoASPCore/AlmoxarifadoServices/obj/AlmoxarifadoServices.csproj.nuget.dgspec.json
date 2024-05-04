@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "projectName": "AlmoxarifadoDomain",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "projectName": "AlmoxarifadoInfrastructure",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "projectName": "AlmoxarifadoServices",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
