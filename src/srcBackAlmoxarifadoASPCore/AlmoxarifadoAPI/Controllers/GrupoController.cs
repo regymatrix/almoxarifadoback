@@ -15,7 +15,7 @@ namespace AlmoxarifadoAPI.Controllers
         }
 
   
-        [HttpGet]
+        [HttpGet("/Grupo")]
         public IActionResult Get()
         {
             try
@@ -29,6 +29,23 @@ namespace AlmoxarifadoAPI.Controllers
                 return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
             }
          
+        }
+
+
+        [HttpGet("/Grupo/{id}")]
+        public IActionResult GetPorID(int id)
+        {
+            try
+            {
+                var grupo = _grupoService.ObterProdutoPorID(id);
+                return Ok(grupo);
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
+            }
+
         }
     }
 }

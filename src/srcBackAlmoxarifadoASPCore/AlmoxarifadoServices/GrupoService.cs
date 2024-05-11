@@ -22,5 +22,10 @@ namespace AlmoxarifadoServices
             return _grupoRepository.ObterTodosGrupos();
         }
 
+        public Grupo ObterProdutoPorID(int id)
+        {
+            return _grupoRepository.ObterGrupoPorID(id);
+        }
+
     }
 }
