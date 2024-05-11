@@ -2389,19 +2389,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fusion\\.nuget\\packages\\": {}
+    "C:\\Users\\professor.cetafest\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
       "projectName": "AlmoxarifadoAPI",
-      "projectPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
-      "packagesPath": "C:\\Users\\fusion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\obj\\",
+      "projectPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\AlmoxarifadoAPI.csproj",
+      "packagesPath": "C:\\Users\\professor.cetafest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fusion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\professor.cetafest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2415,11 +2415,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
-              "projectPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
+            "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj": {
+              "projectPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoInfrastructure\\AlmoxarifadoInfrastructure.csproj"
             },
-            "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
-              "projectPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj"
+            "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj": {
+              "projectPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj"
             }
           }
         }

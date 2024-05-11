@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fusion\\.nuget\\packages\\": {}
+    "C:\\Users\\professor.cetafest\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+      "projectUniqueName": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
       "projectName": "AlmoxarifadoDomain",
-      "projectPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
-      "packagesPath": "C:\\Users\\fusion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
+      "projectPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\AlmoxarifadoDomain.csproj",
+      "packagesPath": "C:\\Users\\professor.cetafest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fusion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\professor.cetafest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
