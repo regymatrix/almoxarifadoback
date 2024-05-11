@@ -17,7 +17,7 @@ namespace AlmoxarifadoServices
             _grupoRepository = pGrupoRepository;
         }
 
-        public List<Grupo> ObterTodosProdutos()
+        public List<Grupo> ObterTodosGrupos()
         {
             return _grupoRepository.ObterTodosGrupos();
         }

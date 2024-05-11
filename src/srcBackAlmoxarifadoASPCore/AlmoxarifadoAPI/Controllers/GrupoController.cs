@@ -20,7 +20,7 @@ namespace AlmoxarifadoAPI.Controllers
         {
             try
             {
-                var grupos = _grupoService.ObterTodosProdutos();
+                var grupos = _grupoService.ObterTodosGrupos();
                 return Ok(grupos);
             }
             catch (Exception)
