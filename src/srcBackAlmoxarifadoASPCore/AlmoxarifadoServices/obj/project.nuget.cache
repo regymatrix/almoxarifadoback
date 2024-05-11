@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wwhXOqDa5kE7CIz42fHHL6vivur6kL5IHg7fqK6bMxrLBgAX5grNtDaF9WucGXqwptufCVeA8t0qBffdq+/B2w==",
+  "dgSpecHash": "8Q93kGNpMR0UXFBwNPAyAqK83e9YwxCpxG6xLnOUir9HV7C0yEYzx1K2sKkdZk9Xan/15QG/D//qWuTizAvXLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\professor.cetafest\\Documents\\GitRegymatrix\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\professor.cetafest\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\professor.cetafest\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\professor.cetafest\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\professor.cetafest\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
