@@ -1,5 +1,6 @@
 ﻿using AlmoxarifadoDomain.Models;
 using AlmoxarifadoServices;
+using AlmoxarifadoServices.DTO;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AlmoxarifadoAPI.Controllers
@@ -49,6 +50,21 @@ namespace AlmoxarifadoAPI.Controllers
                 return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
             }
 
+        }
+
+        [HttpPost]
+        public IActionResult CriarGrupo(GrupoPostDTO grupo)
+        {
+            try
+            {
+                 var grupoSalvo = _grupoService.CriarGrupo(grupo);
+                  return Ok(grupoSalvo);
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
+            }
         }
     }
 }

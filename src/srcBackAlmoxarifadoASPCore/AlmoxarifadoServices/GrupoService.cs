@@ -1,5 +1,6 @@
 ﻿using AlmoxarifadoDomain.Models;
 using AlmoxarifadoInfrastructure.Data.Interfaces;
+using AlmoxarifadoServices.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,17 @@ namespace AlmoxarifadoServices
         public Grupo ObterGrupoPorID(int id)
         {
             return _grupoRepository.ObterGrupoPorId(id);
+        }
+
+        public GrupoGetDTO CriarGrupo(GrupoPostDTO grupo)
+        {
+           var grupoSalvo = _grupoRepository.CriarGrupo(
+                new Grupo { NOME_GRU = grupo.NOME_GRU, SUGESTAO_GRU=grupo.SUGESTAO_GRU}
+             );
+
+            return new GrupoGetDTO { ID_GRU = grupoSalvo.ID_GRU,
+                                     NOME_GRU = grupoSalvo.NOME_GRU, 
+                                     SUGESTAO_GRU = grupoSalvo.SUGESTAO_GRU };
         }
 
     }

@@ -41,5 +41,12 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
                    .ToList().First(x => x?.ID_GRU == id);
         }
 
+        public Grupo CriarGrupo(Grupo grupo)
+        {
+            _context.Grupo.Add(grupo);
+            _context.SaveChanges();
+
+            return grupo;
+        }
     }
 }
