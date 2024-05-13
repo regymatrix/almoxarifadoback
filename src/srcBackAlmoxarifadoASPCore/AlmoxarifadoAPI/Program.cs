@@ -7,8 +7,15 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<ContextSQL>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoDBSQL")));
+//builder.Services.AddDbContext<ContextSQL>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoDBSQL")));
+builder.Services.AddSingleton<ConnectionFactory>();
+builder.Services.AddDbContext<ContextSQL>((serviceProvider, options) =>
+{
+    var connectionFactory = serviceProvider.GetRequiredService<ConnectionFactory>();
+    options.UseSqlServer(connectionFactory.GetConnectionString());
+});
+
 
 //Carregando Classes de Repositories
 builder.Services.AddScoped<GrupoService>();
