@@ -73,3 +73,6 @@ src/srcBackAlmoxarifadoASPCore/.vs/srcBackAlmoxarifadoASPCore/FileContentIndex/6
 src/srcBackAlmoxarifadoASPCore/.vs/srcBackAlmoxarifadoASPCore/v17/.suo
 src/srcBackAlmoxarifadoASPCore/AlmoxarifadoAPI/obj/Debug/net6.0/AlmoxarifadoAPI.AssemblyInfo.cs
 src/srcBackAlmoxarifadoASPCore/AlmoxarifadoAPI/obj/Debug/net6.0/AlmoxarifadoAPI.AssemblyInfoInputs.cache
+/src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/obj
+/src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/obj
+/src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/bin
