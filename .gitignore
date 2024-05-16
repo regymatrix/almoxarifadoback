@@ -87,3 +87,7 @@ src/srcBackAlmoxarifadoASPCore/AlmoxarifadoServices/obj/Debug/net6.0/Almoxarifad
 src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/obj/Debug/net6.0/AlmoxarifadoInfrastructure.AssemblyInfo.cs
 src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/obj/Debug/net6.0/AlmoxarifadoInfrastructure.AssemblyInfoInputs.cache
 src/srcBackAlmoxarifadoASPCore/AlmoxarifadoInfrastructure/obj/Debug/net6.0/AlmoxarifadoInfrastructure.csproj.AssemblyReference.cache
+*.vsidx
+*.dll
+*.cache
+*.cache
