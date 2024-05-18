@@ -43,7 +43,6 @@ namespace AlmoxarifadoAPI.Controllers
             }
             catch (Exception)
             {
-
                 return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
             }
 

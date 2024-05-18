@@ -25,10 +25,11 @@ namespace AlmoxarifadoServices
               });
         }
 
-        public List<GrupoGetDTO> ObterTodosProdutos()
+        public List<Grupo> ObterTodosProdutos()
         {
-            var mapper = mapperConfiguration.CreateMapper();
-            return mapper.Map<List<GrupoGetDTO>>(_grupoRepository.ObterTodosGrupos());
+            //var mapper = mapperConfiguration.CreateMapper();
+            //return mapper.Map<List<GrupoGetDTO>>(_grupoRepository.ObterTodosGrupos());
+            return _grupoRepository.ObterTodosGrupos();
         }
 
         public Grupo ObterProdutoPorID(int id)
