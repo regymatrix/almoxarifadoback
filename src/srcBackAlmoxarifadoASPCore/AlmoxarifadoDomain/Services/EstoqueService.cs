@@ -10,9 +10,16 @@ namespace AlmoxarifadoDomain.Services
 {
     public class EstoqueService : IEstoqueService
     {
+       
         public bool VerificarEstoqueAbaixoMinimo(Estoque estoque, int qtdRetirada)
         {
-            return estoque.Quantidade - qtdRetirada < estoque.produto.ESTOQUE_MIN;
+            var qtdMinimo = retornarQuantidadeMinimo();
+            return estoque.Quantidade - qtdRetirada < qtdMinimo;
+        }
+
+        public int retornarQuantidadeMinimo()
+        {
+            return 10;
         }
     }
 }

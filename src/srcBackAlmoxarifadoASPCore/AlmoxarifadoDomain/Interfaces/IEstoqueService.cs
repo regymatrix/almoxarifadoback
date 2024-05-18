@@ -10,5 +10,8 @@ namespace AlmoxarifadoDomain.Interfaces
     public interface IEstoqueService
     {
         bool VerificarEstoqueAbaixoMinimo(Estoque estoque, int qtdRetirada);
+
+        //Regra extra para teste com Mock
+        int retornarQuantidadeMinimo();
     }
 }
